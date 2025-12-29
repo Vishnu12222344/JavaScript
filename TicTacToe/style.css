@@ -1,0 +1,31 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 30px auto;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+.cell:hover {
+    background-color: #eaeaea;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
